@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Different Forms</title>
+	</head>
+	<body>
+		<h1>Tell me about yourself</h1>
+		<form class="" action="index.html" method="post">
+			<label for="name">What is your name?</label>
+				<input type="text" name="name" id="name">
+			<br>
+				<label for="password">Pick a password</label>
+				<input type="password" id="password">
+			<br>
+				<label for="gender">What gender do you prefer?</label>
+				<select id="gender" name="gender">
+					<option value="female">Female</option>
+					<option value="male">Male</option>
+					<option value="nonbinary">Non-Binary</option>
+				</select>
+			<br>
+			<hr>
+				<label for="food">Whats your favorite food?</label>
+				<select id="food">
+					<option value="indian">Indian</option>
+					<option value="mexican">Mexican</option>
+					<option value="japanese">Japanese</option>
+					<option value="american">American</option>
+					<option value="chinese">Chinese</option>
+					<option value="african">African</option>
+					<option value="other">Other</option>
+				</select>
+			<br>
+			<hr>
+			<p>What genre of music is your favorite?</p>
+				<label for="pop">Pop</label>
+				<input type="radio" name="music" id="pop">
+				<label for="rock">Rock</label>
+				<input type="radio" name="music" id="rock">
+				<label for="country">Country</label>
+				<input type="radio" name="music" id="country">
+				<label for="jazz">Jazz</label>
+				<input type="radio" name="music" id="jazz">
+				<label for="hiphop">Hip Hop</label>
+				<input type="radio" name="music" id="hiphop">
+				<label for="rap">Rap</label>
+				<input type="radio" name="music" id="rap">
+			<br>
+			<hr>
+			<p>Which of these cities have you been to?</p>
+				<label for="boston">Boston</label>
+				<input type="checkbox" name="cities" id="boston">
+				<br>
+				<label for="austin">Austin</label>
+				<input type="checkbox" name="cities" id="austin">
+				<br>
+				<label for="seattle">Seattle</label>
+				<input type="checkbox" name="cities" id="seattle">
+				<br>
+				<label for="chicago">Chicago</label>
+				<input type="checkbox" name="cities" id="chicago">
+				<br>
+				<label for="newyork">New York</label>
+				<input type="checkbox" name="cities" id="newyork">
+			<br>
+			<hr>
+				<label for="birthday">When is your birthday?</label>
+				<input type="date" id="birthday">
+			<br>
+				<label for="age">How old are you?</label>
+				<input type="number" id="age" min="1" max="100" step="1" pattern="[1-9]">
+			<br>
+			<hr>
+				<label for="color">What is your favorite color?</label>
+				<input type="color" id="color">
+			<br>
+			<hr>
+				<label for="picture">Upload a picture that gives you life</label>
+				<input type="file" id="picture">
+			<br>
+			<hr>
+				<label for="fun">Was this fun?</label>
+			<br>
+			<span>😡NO FUN😡<span>
+				<input type="range" id="fun" min="1" max="5" step="1">
+			<span>🥳SO FUN!🥳<span>
+				
+			<br>
+			<hr>
+				<label for="extra">Anything else you'd like to add?</label>
+				<br>
+				<textarea id="extra" name="extra" rows="5" cols="35" placeholder="I'd like to say..." wrap="hard" maxlength="350"></textarea>
+			<br>	
+				<label for="email">Email address?</label>
+				<input type="email" id="email">
+			<br>
+				<label for="phone">Phone number?</label>
+				<input type="tel" id="phone">
+			<br>
+				<label for="today">When should I contact you?</label>
+				<input type="datetime-local" id="today">
+			<br>
+		
+			
+				<input type="submit" value="Let's Do This!">
+			</form>
+				</body>
+	
